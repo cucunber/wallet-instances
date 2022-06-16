@@ -1,5 +1,5 @@
 {
-    "name": "abstract-wallet",
+    "name": "metamask-wallet",
     "version": "0.0.1",
     "description": "",
     "main": "dist/index.js",
