@@ -1,3 +1,5 @@
+import Web3 from "web3";
+
 export interface IRPCMap {
   [chainId: number]: string;
 }
@@ -24,9 +26,9 @@ export interface IEvent {
 }
 
 export interface INativeCurrency {
-  name: string,
-  symbol: string,
-  decimals: number,
+  name: string;
+  symbol: string;
+  decimals: number;
 }
 
 export interface IEventError extends IEvent {
@@ -85,4 +87,9 @@ export interface IMessageProvider {
     text: string;
   };
   provider?: string;
+}
+declare global {
+  interface Window {
+    ethereum: Web3;
+  }
 }
