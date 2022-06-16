@@ -1,0 +1,16 @@
+{
+    "name": "abstract-wallet",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc"
+    },
+    "author": "",
+    "dependencies": {
+      "rxjs": "~6.6.0",
+      "tslib": "^2.0.0",
+      "web3": "^1.6.1"
+    }
+  }
