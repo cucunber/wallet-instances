@@ -88,6 +88,11 @@ export interface IMessageProvider {
   };
   provider?: string;
 }
+
+export interface ICheckNet {
+  chain: boolean,
+  error?: IError,
+}
 declare global {
   interface Window {
     ethereum: Web3;
