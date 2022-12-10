@@ -91,5 +91,6 @@ export interface IMessageProvider {
 declare global {
   interface Window {
     ethereum: Web3;
+    gamestop: any;
   }
 }
